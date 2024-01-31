@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.navlist{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    height: 49px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1600px;
+    position: fixed;
+
+
+}
+
+.navlist li{
+    list-style: none;
+}
+
+.navlist li a{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff
+}
+
+.left_container,.right_container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.left_container{
+    background: #262525;
+    width: 70%;
+    padding:  3rem;
+    
+}
+
+.right_container{
+    background: linear-gradient(-45deg,  #3877ff,#262525 70%);
+    width: 30%;
+}
+
+.icon .fa-brands{
+    color:#bbb;
+    font-size: 1.7rem;
+
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.contant{
+    margin-left: 4rem;
+}
+.contant, .intro{
+    color: #FFF;
+}
+
+.contant, .intro span{
+    font-size: 1.5rem;
+    color: #5DB999;
+}
+
+
+
+
+.contant h1{
+    font-size: 4rem;
+    color: #5DB999;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+
+.contant, .details{
+    color: #FFF;
+    max-width: 38rem;
+}
+
+.button_contant button{
+    border: .1px solid #5DB9EE;
+    font-size: 1.1rem;
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+button:nth-child(1){
+    background-color: #5DB9EE;
+    color: #262525;
+}
+
+button:nth-child(2){
+    background-color: transparent;
+    color: #5DB9EE;
+    margin-left: 2rem;
+}
+
+button:nth-child(1):hover{
+    background: transparent;
+    color: #5DB9EE;
+}
+
+button:nth-child(2):hover{
+    background: #5DB9EE;
+    color: #262525;
+}
+
+.icon .fa-brands{
+    cursor: pointer;
+    background: linear-gradient(#fff,#3877ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top:50%;
+    left:70%;
+    transform: translate(-50%, -50%);
+
+
+
+}
+
+.circle:nth-child(1){
+    background: linear-gradient(90deg, transparent 50%,#262525 50%);
+    width: 38rem;
+}
+
+.circle:nth-child(2){
+    width: 30rem;
+    background-image: url("img/img.jpg");
+    background-size: 100%;
+    box-shadow: 0 0 1rem #FFF;
+}
+
+
+

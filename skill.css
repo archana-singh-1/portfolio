@@ -1,0 +1,134 @@
+body{
+    background: #B4B4B8;
+    width: 100%;
+}
+.skill_name{
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: solid 2px red;
+
+}
+
+h2{
+    text-align: center;
+    justify-content: center;
+    color: red;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+hr{
+    width:70px;
+    border: solid 3px red;
+}
+.python{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    gap: 500px;
+
+}
+.icon1,.icon2{
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+    width: 30%;
+    font-size: 35px;
+}
+
+.icon1{
+    color: blue;
+}
+.icon2{
+    color: #F0DE36;
+
+}
+.icon1 span{
+    padding-left: 20px;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.icon2 span{
+    color:white ;
+    padding-left: 20px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.html_css_icon{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    gap: 500px;
+
+}
+
+.icon3,.icon4{
+    border-bottom: 5px solid red;
+    margin-bottom: 10px;
+    width: 30%;
+    font-size: 35px;
+}
+.icon3{
+    color:#EF4040;
+}
+.icon4{
+    color: #3468C0;
+}
+.icon3 span{
+    color:white ;
+    padding-left: 20px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.icon4 span{
+    color:white ;
+    padding-left: 20px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.reactjs_nodejs{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    gap: 500px;
+}
+.icon5,.icon6{
+    border-bottom: 5px solid red;
+    margin-bottom: 30px;
+    width: 30%;
+    font-size: 35px;
+}
+.icon5{
+    color:#46C2CB;
+}
+.icon6{
+    color: #65B741;
+    font-size: 60px;
+}
+
+.icon5 span{
+    color:white ;
+    padding-left: 20px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.icon6 span{
+    color:white ;
+    padding-left: 20px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
